@@ -1,0 +1,6 @@
+.vscode
+target
+*.docx
+*.pdf
+node_modules/
+mysql/

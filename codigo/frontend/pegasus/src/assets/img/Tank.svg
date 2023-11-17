@@ -1,0 +1,60 @@
+<svg width="163" height="273" viewBox="0 0 163 273" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="40.5" y1="25" x2="40.5" y2="174" stroke="black"/>
+<line x1="153.5" y1="25" x2="153.5" y2="174" stroke="black"/>
+<line x1="41" y1="25.5" x2="154" y2="25.5" stroke="black"/>
+<line x1="40" y1="173.5" x2="153" y2="173.5" stroke="black"/>
+<line x1="39.5" y1="173" x2="39.5" y2="184" stroke="black"/>
+<line x1="40" y1="183.5" x2="154" y2="183.5" stroke="black"/>
+<line x1="39.4135" y1="183.719" x2="56.4135" y2="208.719" stroke="black"/>
+<line x1="153.5" y1="173" x2="153.5" y2="184" stroke="black"/>
+<line x1="52" y1="208.5" x2="143" y2="208.5" stroke="black"/>
+<line x1="52.4131" y1="208.718" x2="67.4131" y2="230.718" stroke="black"/>
+<line x1="136.587" y1="208.718" x2="153.588" y2="183.719" stroke="black"/>
+<line x1="127.587" y1="230.718" x2="142.589" y2="208.718" stroke="black"/>
+<line x1="56" y1="230.5" x2="128" y2="230.5" stroke="black"/>
+<line x1="71.5" y1="231" x2="71.5" y2="235" stroke="black"/>
+<line x1="122.5" y1="231" x2="122.5" y2="235" stroke="black"/>
+<line x1="96.5874" y1="272.718" x2="122.589" y2="234.718" stroke="black"/>
+<line x1="71.4127" y1="234.718" x2="97.4127" y2="272.718" stroke="black"/>
+<rect x="41" y="42" width="112" height="2" fill="black"/>
+<line x1="118.186" y1="11.5358" x2="153.186" y2="25.5358" stroke="black"/>
+<line x1="40.8143" y1="25.5348" x2="75.8147" y2="11.5356" stroke="black"/>
+<line x1="75.5" y1="12" x2="75.5" y2="8" stroke="black"/>
+<line x1="118.5" y1="12" x2="118.5" y2="8" stroke="black"/>
+<line x1="54" y1="7.5" x2="132" y2="7.5" stroke="black"/>
+<line x1="54" y1="6.5" x2="132" y2="6.5" stroke="black"/>
+<line x1="54" y1="1.5" x2="132" y2="1.5" stroke="black"/>
+<line x1="54" y1="0.5" x2="132" y2="0.5" stroke="black"/>
+<circle cx="46" cy="230" r="10.5" stroke="black"/>
+<line x1="54.5" y1="2" x2="54.5" y2="7" stroke="black"/>
+<line x1="131.5" x2="131.5" y2="8" stroke="black"/>
+<rect x="31" y="42" width="9" height="133" fill="black"/>
+<rect x="154" y="42" width="9" height="133" fill="black"/>
+<line x1="47" y1="224.5" x2="50" y2="224.5" stroke="black"/>
+<line x1="48.5" y1="224" x2="48.5" y2="230" stroke="black"/>
+<line x1="43.5" y1="224" x2="43.5" y2="230" stroke="black"/>
+<line x1="42" y1="224.5" x2="45" y2="224.5" stroke="black"/>
+<circle cx="11" cy="128" r="10.5" stroke="black"/>
+<line x1="12" y1="122.5" x2="15" y2="122.5" stroke="black"/>
+<line x1="13.5" y1="122" x2="13.5" y2="128" stroke="black"/>
+<line x1="8.5" y1="122" x2="8.5" y2="128" stroke="black"/>
+<line x1="7" y1="122.5" x2="10" y2="122.5" stroke="black"/>
+<circle cx="132" cy="253" r="10.5" stroke="black"/>
+<circle cx="63" cy="254" r="10.5" stroke="black"/>
+<line x1="64" y1="248.5" x2="67" y2="248.5" stroke="black"/>
+<line x1="65.5" y1="248" x2="65.5" y2="254" stroke="black"/>
+<circle cx="11" cy="95" r="10.5" stroke="black"/>
+<line x1="12" y1="89.5" x2="15" y2="89.5" stroke="black"/>
+<line x1="13.5" y1="89" x2="13.5" y2="95" stroke="black"/>
+<line x1="8.5" y1="89" x2="8.5" y2="95" stroke="black"/>
+<line x1="7" y1="89.5" x2="10" y2="89.5" stroke="black"/>
+<line x1="126.5" y1="249" x2="126.5" y2="254" stroke="black"/>
+<line x1="126" y1="254.5" x2="129" y2="254.5" stroke="black"/>
+<line x1="134.5" y1="249" x2="134.5" y2="254" stroke="black"/>
+<line x1="134" y1="254.5" x2="137" y2="254.5" stroke="black"/>
+<path d="M132 250C130.8 250 130 250 130 250.8L130 251.2L130 251.6L131.5 252L132 252.4V253.2L131.5 254H130" stroke="black"/>
+<line x1="59.5" y1="254" x2="59.5" y2="248" stroke="black"/>
+<circle cx="61" cy="250" r="1.5" stroke="black"/>
+<line x1="21" y1="94.5" x2="32" y2="94.5" stroke="black"/>
+<line x1="21" y1="128.5" x2="31" y2="128.5" stroke="black"/>
+</svg>

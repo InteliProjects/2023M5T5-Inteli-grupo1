@@ -1,0 +1,16 @@
+.not-found-container {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    margin-top: 100px; /* Espaço superior para centralizar verticalmente */
+    font-family: Arial, sans-serif; /* Use uma fonte semelhante a sites famosos */
+  
+    /* Estilo para tornar as palavras maiores */
+    h1 {
+      font-size: 36px;
+      color: #333; /* Cor do texto */
+    }
+  
+    p {
+      font-size: 18px;
+      color: #666; /* Cor do texto */
+    }
+  }  

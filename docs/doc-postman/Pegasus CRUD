@@ -1,0 +1,341 @@
+{
+	"info": {
+		"_postman_id": "73b60e43-7c80-40bf-8e6b-833eba1edc18",
+		"name": "Pegasus Testes CRUD",
+		"description": "Este é o teste da API do grupo Pegasus. Os testes foram executados com sucessos, porém, caso não haja o mysql no docker, não funcionará. O docker compose já esta no repositorio e o codigo do mysql também.\n\nSe tiver o Docker instalado é só estar na pasta do docker, ir no terminal e digitar:\n\ndocker-compose up -d\n\ncaso queira derrubar o container, apenas digite:\n\ndocker-compose down",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23842638"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/user/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"yago\",\r\n    \"email\": \"yagophellipe2012@Live.com\",\r\n    \"password\": \"testando123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateUser",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Samuel de souza junior\",\r\n    \"email\": \"samuelteste2012@gmail.com\",\r\n    \"password\": \"echosec123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteUser",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/user/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints dos usuários."
+		},
+		{
+			"name": "Project",
+			"item": [
+				{
+					"name": "Project",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/project/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"project",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateProject",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Projeto 1\",\r\n    \"description\": \"Projeto feito para a rockwell\",\r\n    \"start_date\": ,\r\n    \"end_date\":\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/project/create-and-assign",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"project",
+								"create-and-assign"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateProject",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/project/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"project",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints dos projetos."
+		},
+		{
+			"name": "Graph",
+			"item": [
+				{
+					"name": "Node",
+					"item": [
+						{
+							"name": "Graph",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/graph",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"graph"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreateNode",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/graph/node",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"graph",
+										"node"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PutNode",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"nameatualiazdo \"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/graph/node/380",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"graph",
+										"node",
+										"380"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteNode",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/graph/1",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"graph",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"description": "Endpoints dos nós"
+				},
+				{
+					"name": "Edge",
+					"item": [
+						{
+							"name": "CreateEdge",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"source\": \"NodeName1\",\r\n    \"target\": \"NodeName\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/graph/edge",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"graph",
+										"edge"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteEdge",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/graph/edge",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"graph",
+										"edge"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"description": "Endpoints das arestas."
+				}
+			]
+		}
+	]
+}
